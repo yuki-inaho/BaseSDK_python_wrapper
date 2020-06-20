@@ -1,0 +1,5 @@
+build/
+dist/
+zense_cam_api.egg-info/
+poetry.lock
+zense_cam_api.c
