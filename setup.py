@@ -11,7 +11,7 @@ setup(
     ext_modules=cythonize(
         [
             Extension("zense_cam_api",
-                      sources=["zense_cam_api.py"],
+                      sources=["scripts/zense_cam_api.py"],
                       library_dirs=lib_dir,
                       libraries=["ImgPreProcess", "vzense_api"],
                       ),

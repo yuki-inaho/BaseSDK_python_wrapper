@@ -5,6 +5,7 @@ import platform
 import numpy
 from ctypes import *
 from enum import Enum
+from sys import exit
 
 
 class PsRGB888Pixel(Structure):
