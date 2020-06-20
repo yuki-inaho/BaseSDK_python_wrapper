@@ -3,3 +3,4 @@ dist/
 zense_cam_api.egg-info/
 poetry.lock
 zense_cam_api.c
+zense_cam_api.cpython-37m-x86_64-linux-gnu.so
