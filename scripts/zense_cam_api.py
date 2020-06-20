@@ -217,7 +217,7 @@ class PicoTofCam():
         device_info = PsDeviceInfo()
         rst = self.ps_cam_lib.Ps2_GetDeviceInfo(byref(device_info), cam_index)
         if rst == 0:
-            return device_info.uri
+            return device_info
         else:
             return 'null'
 

@@ -14,7 +14,9 @@ camera_count = camera.get_cam_count()
 
 
 for x in (0, camera_count):
-    print(str(x) + ':' + str(camera.get_cam_info(x)))
+    if camera.get_cam_info(x) == 'null':
+        continue
+    print(str(x) + ':' + str(camera.get_cam_info(x).uri))
 
 if camera_count > 1:
     index = input("chose open camera:")
